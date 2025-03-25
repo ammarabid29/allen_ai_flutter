@@ -1,3 +1,4 @@
+import 'package:allen_ai_flutter/core/colors/pallete.dart';
 import 'package:allen_ai_flutter/features/voice_assistant/presentation/view/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,8 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Allen',
       theme: ThemeData.light(useMaterial3: true).copyWith(
-        scaffoldBackgroundColor: Colors.white,
-        appBarTheme: AppBarTheme(backgroundColor: Colors.white),
+        scaffoldBackgroundColor: Pallete.whiteColor,
+        appBarTheme: AppBarTheme(backgroundColor: Pallete.whiteColor),
       ),
       home: const HomePage(),
     );
